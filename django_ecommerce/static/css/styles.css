@@ -1,0 +1,15 @@
+.btn-primary {
+    color: #000 !important;
+    background-color: transparent !important;
+    border-color: transparent !important;
+    border-radius: 0px;
+}
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:focus-within{
+    color: #000 !important;
+    background-color: transparent !important;
+    border-color: #000 !important;
+    border-radius: 50px;
+    box-shadow: 0 0 0 0.2rem rgb(80 126 238 / 0%) !important;
+}
