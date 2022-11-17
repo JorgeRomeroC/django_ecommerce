@@ -93,7 +93,7 @@
       <option name="presentableId" value="Default" />
       <updated>1668565164981</updated>
       <workItem from="1668565174865" duration="8110000" />
-      <workItem from="1668601211482" duration="8373000" />
+      <workItem from="1668601211482" duration="9533000" />
     </task>
     <task id="LOCAL-00001" summary="Creacion e integracion de los archivos estatiscos asi como de la plantilla ecommerce del Home">
       <created>1668567743954</created>
@@ -130,7 +130,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668606677298</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Vista personalizada de la tabla de usuarios incorporando mas vistas a parte del email, como: (ultimo login)&#10; El campo de password que sea solo de lectura y no editable">
+      <created>1668650310005</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1668650310005</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -154,6 +161,7 @@
     <MESSAGE value="Traduccion de titulos y textos del panel admin django" />
     <MESSAGE value="Se añaden los archivos staticos css y js asi como el archivo README modificado" />
     <MESSAGE value="Se crea la app de cuentas(account) junto con el modelo con las funciones que tienen opcion de poder crear el super usuario y sus atributos asi como el usuarios comun" />
-    <option name="LAST_COMMIT_MESSAGE" value="Se crea la app de cuentas(account) junto con el modelo con las funciones que tienen opcion de poder crear el super usuario y sus atributos asi como el usuarios comun" />
+    <MESSAGE value="Vista personalizada de la tabla de usuarios incorporando mas vistas a parte del email, como: (ultimo login)&#10; El campo de password que sea solo de lectura y no editable" />
+    <option name="LAST_COMMIT_MESSAGE" value="Vista personalizada de la tabla de usuarios incorporando mas vistas a parte del email, como: (ultimo login)&#10; El campo de password que sea solo de lectura y no editable" />
   </component>
 </project>
