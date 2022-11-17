@@ -8,4 +8,5 @@
 - 6- Creación del super user basico 
 - 7- Configuración para solicitar Email por sobre el usuario en el login al admin
 - 8- Crear modelo con la clase y funciones para crear super usuarios y sus atributos en el panel admin
-- 9- 
+- 9- Vista personalizada de la tabla de usuarios incorporando mas vistas a parte del email, como: (ultimo login)
+- 10- El campo de password que sea solo de lectura y no editable

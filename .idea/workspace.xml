@@ -93,7 +93,7 @@
       <option name="presentableId" value="Default" />
       <updated>1668565164981</updated>
       <workItem from="1668565174865" duration="8110000" />
-      <workItem from="1668601211482" duration="4855000" />
+      <workItem from="1668601211482" duration="8373000" />
     </task>
     <task id="LOCAL-00001" summary="Creacion e integracion de los archivos estatiscos asi como de la plantilla ecommerce del Home">
       <created>1668567743954</created>
@@ -116,7 +116,21 @@
       <option name="project" value="LOCAL" />
       <updated>1668577507493</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Se crea la app de cuentas(account) junto con el modelo con las funciones que tienen opcion de poder crear el super usuario y sus atributos asi como el usuarios comun">
+      <created>1668606424774</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1668606424774</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Se crea la app de cuentas(account) junto con el modelo con las funciones que tienen opcion de poder crear el super usuario y sus atributos asi como el usuarios comun">
+      <created>1668606677298</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1668606677298</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -138,6 +152,8 @@
     <MESSAGE value="Creacion e integracion de los archivos estatiscos asi como de la plantilla ecommerce del Home" />
     <MESSAGE value="Modularización de las partes comunes o estaticas de la web (header, footer, nav, etc)" />
     <MESSAGE value="Traduccion de titulos y textos del panel admin django" />
-    <option name="LAST_COMMIT_MESSAGE" value="Traduccion de titulos y textos del panel admin django" />
+    <MESSAGE value="Se añaden los archivos staticos css y js asi como el archivo README modificado" />
+    <MESSAGE value="Se crea la app de cuentas(account) junto con el modelo con las funciones que tienen opcion de poder crear el super usuario y sus atributos asi como el usuarios comun" />
+    <option name="LAST_COMMIT_MESSAGE" value="Se crea la app de cuentas(account) junto con el modelo con las funciones que tienen opcion de poder crear el super usuario y sus atributos asi como el usuarios comun" />
   </component>
 </project>
