@@ -13,9 +13,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="CSS File" />
         <option value="Python Script" />
         <option value="HTML File" />
-        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -34,30 +34,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "vcs.Git",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "GitStage.ChangesTree.GroupingKeys": [
-      "directory",
-      "module",
-      "repository"
+  &quot;keyToStringList&quot;: {
+    &quot;GitStage.ChangesTree.GroupingKeys&quot;: [
+      &quot;directory&quot;,
+      &quot;module&quot;,
+      &quot;repository&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="django_ecommerce" type="Python.DjangoServer" factoryName="Django server">
       <module name="django_ecommerce" />
@@ -93,7 +93,8 @@
       <option name="presentableId" value="Default" />
       <updated>1668565164981</updated>
       <workItem from="1668565174865" duration="8110000" />
-      <workItem from="1668601211482" duration="9533000" />
+      <workItem from="1668601211482" duration="16119000" />
+      <workItem from="1668778540886" duration="7696000" />
     </task>
     <task id="LOCAL-00001" summary="Creacion e integracion de los archivos estatiscos asi como de la plantilla ecommerce del Home">
       <created>1668567743954</created>
@@ -137,7 +138,28 @@
       <option name="project" value="LOCAL" />
       <updated>1668650310005</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Configuración de la ruta y guardado de los archivos media que se utilizaran para los productos del proyecto">
+      <created>1668652919821</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1668652919821</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Se creo la app de store y se gestiono el modelo de esta app y su migracion">
+      <created>1668657305706</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1668657305706</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Se crearon las funciones para filtrar los prodcutos por categorias asi como hacerlo efectivo en el front-end, tambien se desplegaron la lista de categorias en el front-end para poder realizar los filtros de productos.">
+      <created>1668831318471</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1668831318471</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -162,6 +184,9 @@
     <MESSAGE value="Se añaden los archivos staticos css y js asi como el archivo README modificado" />
     <MESSAGE value="Se crea la app de cuentas(account) junto con el modelo con las funciones que tienen opcion de poder crear el super usuario y sus atributos asi como el usuarios comun" />
     <MESSAGE value="Vista personalizada de la tabla de usuarios incorporando mas vistas a parte del email, como: (ultimo login)&#10; El campo de password que sea solo de lectura y no editable" />
-    <option name="LAST_COMMIT_MESSAGE" value="Vista personalizada de la tabla de usuarios incorporando mas vistas a parte del email, como: (ultimo login)&#10; El campo de password que sea solo de lectura y no editable" />
+    <MESSAGE value="Configuración de la ruta y guardado de los archivos media que se utilizaran para los productos del proyecto" />
+    <MESSAGE value="Se creo la app de store y se gestiono el modelo de esta app y su migracion" />
+    <MESSAGE value="Se crearon las funciones para filtrar los prodcutos por categorias asi como hacerlo efectivo en el front-end, tambien se desplegaron la lista de categorias en el front-end para poder realizar los filtros de productos." />
+    <option name="LAST_COMMIT_MESSAGE" value="Se crearon las funciones para filtrar los prodcutos por categorias asi como hacerlo efectivo en el front-end, tambien se desplegaron la lista de categorias en el front-end para poder realizar los filtros de productos." />
   </component>
 </project>
