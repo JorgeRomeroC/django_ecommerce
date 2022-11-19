@@ -1,15 +1,49 @@
+.btn{
+    border-radius: 50px;
+}
 .btn-primary {
-    color: #000 !important;
+    color: #ffaf5e !important;
     background-color: transparent !important;
     border-color: transparent !important;
-    border-radius: 0px;
+    border-radius: 50px;
 }
 .btn-primary:hover,
 .btn-primary:focus,
 .btn-primary:focus-within{
-    color: #000 !important;
+    color: #e38d37 !important;
     background-color: transparent !important;
-    border-color: #000 !important;
+    border-color: #e38d37 !important;
+    border-radius: 50px;
+    box-shadow: 0 0 0 0.2rem rgb(80 126 238 / 0%) !important;
+}
+a{
+    color: #ffaf5e;
+}
+.btn-success {
+    color: #fff;
+    background-color: #ffaf5e;
+    border-color: #ffaf5e;
+    border-radius: 50px;
+}
+.btn-success:hover,
+.btn-success:focus,
+.btn-success:focus-within{
+    color: #e38d37 !important;
+    background-color: transparent !important;
+    border-color: #e38d37 !important;
+    border-radius: 50px;
+    box-shadow: 0 0 0 0.2rem rgb(80 126 238 / 0%) !important;
+}
+.btn-outline-primary {
+    color: #57d600;
+    border-color: #57d600;
+}
+.btn-outline-primary:hover,
+.btn-outline-primary:focus,
+.btn-outline-primary:focus-within{
+    color: #fff !important;
+    background-color: #5c8640;
+    border-color: #5c8640 !important;
     border-radius: 50px;
     box-shadow: 0 0 0 0.2rem rgb(80 126 238 / 0%) !important;
 }
