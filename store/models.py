@@ -1,4 +1,5 @@
 from django.db import models
+from django.urls import reverse
 
 from category.models import Category
 
@@ -19,6 +20,9 @@ class Product(models.Model):
     # Fecha de modificacion del producto
     modified_date = models.DateTimeField(auto_now=True)
 
+    def get_url(self):
+        # Este product_detail, viene desde donde lo definimos en el archivo url.py de esta APP
+        return reverse('product_detail', args=[self.category.slug, self.slug])
     def __str__(self):
         # listar por nombre del roducto
         return self.product_name

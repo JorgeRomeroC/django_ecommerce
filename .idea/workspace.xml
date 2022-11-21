@@ -4,7 +4,32 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="764b0012-dece-41e1-a02e-013a14b477c8" name="Changes" comment="" />
+    <list default="true" id="764b0012-dece-41e1-a02e-013a14b477c8" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carts/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/carts/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carts/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/carts/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carts/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/carts/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carts/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/carts/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carts/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/carts/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carts/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/carts/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_ecommerce/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_ecommerce/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_ecommerce/static/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/django_ecommerce/static/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_ecommerce/static/images/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/django_ecommerce/static/images/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_ecommerce/static/images/logo01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_ecommerce/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_ecommerce/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/store/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/store/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/store/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/includes/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/includes/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/includes/nav.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/includes/nav.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/store/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/store/cart.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/store/product_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/store/product_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/store/store.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/store/store.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -94,7 +119,11 @@
       <updated>1668565164981</updated>
       <workItem from="1668565174865" duration="8110000" />
       <workItem from="1668601211482" duration="16119000" />
-      <workItem from="1668778540886" duration="7696000" />
+      <workItem from="1668778540886" duration="10324000" />
+      <workItem from="1668908612828" duration="333000" />
+      <workItem from="1668908976060" duration="6049000" />
+      <workItem from="1668992466489" duration="641000" />
+      <workItem from="1668995227311" duration="6518000" />
     </task>
     <task id="LOCAL-00001" summary="Creacion e integracion de los archivos estatiscos asi como de la plantilla ecommerce del Home">
       <created>1668567743954</created>
@@ -159,7 +188,42 @@
       <option name="project" value="LOCAL" />
       <updated>1668831318471</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Creada pagina detalle del producto y las funciones que permiten acceder a este detalle.">
+      <created>1668835156600</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1668835156600</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Creada pagina detalle del producto y las funciones que permiten acceder a este detalle.">
+      <created>1668836254638</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1668836254638</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Detalles de la pagina detalle de producto, y correccion de enlaces entre los productos, enlaces en el logo, boton tienda, imagen de producto, etc y incorporado el archivo .gitignore.">
+      <created>1668918569116</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1668918569116</updated>
+    </task>
+    <task id="LOCAL-00013" summary="App de cart(carrito de compras) creada y su diseño html statico.">
+      <created>1668920464235</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1668920464235</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Modelos de cart(carrito de compras) creado y migrado">
+      <created>1668996119626</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1668996119626</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -187,6 +251,11 @@
     <MESSAGE value="Configuración de la ruta y guardado de los archivos media que se utilizaran para los productos del proyecto" />
     <MESSAGE value="Se creo la app de store y se gestiono el modelo de esta app y su migracion" />
     <MESSAGE value="Se crearon las funciones para filtrar los prodcutos por categorias asi como hacerlo efectivo en el front-end, tambien se desplegaron la lista de categorias en el front-end para poder realizar los filtros de productos." />
-    <option name="LAST_COMMIT_MESSAGE" value="Se crearon las funciones para filtrar los prodcutos por categorias asi como hacerlo efectivo en el front-end, tambien se desplegaron la lista de categorias en el front-end para poder realizar los filtros de productos." />
+    <MESSAGE value="Funcion que permite consultar el detalle del producto y visualizar sus datos e imagen de este" />
+    <MESSAGE value="Creada pagina detalle del producto y las funciones que permiten acceder a este detalle." />
+    <MESSAGE value="Detalles de la pagina detalle de producto, y correccion de enlaces entre los productos, enlaces en el logo, boton tienda, imagen de producto, etc y incorporado el archivo .gitignore." />
+    <MESSAGE value="App de cart(carrito de compras) creada y su diseño html statico." />
+    <MESSAGE value="Modelos de cart(carrito de compras) creado y migrado" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modelos de cart(carrito de compras) creado y migrado" />
   </component>
 </project>

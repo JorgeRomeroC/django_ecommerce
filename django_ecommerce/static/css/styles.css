@@ -4,7 +4,7 @@
 .btn-primary {
     color: #ffaf5e !important;
     background-color: transparent !important;
-    border-color: transparent !important;
+    border-color: #ffaf5e !important;
     border-radius: 50px;
 }
 .btn-primary:hover,
