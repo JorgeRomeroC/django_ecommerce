@@ -5,30 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="764b0012-dece-41e1-a02e-013a14b477c8" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/carts/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/carts/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/carts/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/carts/apps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/carts/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/carts/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/carts/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/carts/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/carts/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/carts/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/carts/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/carts/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/django_ecommerce/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_ecommerce/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/django_ecommerce/static/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/django_ecommerce/static/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/django_ecommerce/static/images/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/django_ecommerce/static/images/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/django_ecommerce/static/images/logo01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/django_ecommerce/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_ecommerce/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/store/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/store/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/store/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/includes/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/includes/footer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/includes/nav.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/includes/nav.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/store/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/store/cart.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/store/product_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/store/product_detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/store/store.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/store/store.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,7 +100,9 @@
       <workItem from="1668908612828" duration="333000" />
       <workItem from="1668908976060" duration="6049000" />
       <workItem from="1668992466489" duration="641000" />
-      <workItem from="1668995227311" duration="6518000" />
+      <workItem from="1668995227311" duration="8505000" />
+      <workItem from="1669032370600" duration="601000" />
+      <workItem from="1669081209974" duration="2433000" />
     </task>
     <task id="LOCAL-00001" summary="Creacion e integracion de los archivos estatiscos asi como de la plantilla ecommerce del Home">
       <created>1668567743954</created>
@@ -223,7 +202,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668996119626</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="funciones para añadir los productos al carrito de compras y mostrarlos en el front-end, sumar lo precios, mostrar imagenes de productos, cantidad.">
+      <created>1669006751250</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1669006751250</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -256,6 +242,7 @@
     <MESSAGE value="Detalles de la pagina detalle de producto, y correccion de enlaces entre los productos, enlaces en el logo, boton tienda, imagen de producto, etc y incorporado el archivo .gitignore." />
     <MESSAGE value="App de cart(carrito de compras) creada y su diseño html statico." />
     <MESSAGE value="Modelos de cart(carrito de compras) creado y migrado" />
-    <option name="LAST_COMMIT_MESSAGE" value="Modelos de cart(carrito de compras) creado y migrado" />
+    <MESSAGE value="funciones para añadir los productos al carrito de compras y mostrarlos en el front-end, sumar lo precios, mostrar imagenes de productos, cantidad." />
+    <option name="LAST_COMMIT_MESSAGE" value="funciones para añadir los productos al carrito de compras y mostrarlos en el front-end, sumar lo precios, mostrar imagenes de productos, cantidad." />
   </component>
 </project>

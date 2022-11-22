@@ -1,5 +1,5 @@
 from django.core.exceptions import ObjectDoesNotExist
-from django.shortcuts import render, redirect
+from django.shortcuts import render, redirect, get_object_or_404
 
 from carts.models import Cart, CartItem
 from store.models import Product
@@ -47,15 +47,51 @@ def add_cart(request, product_id):
         )
         cart_item.save()
     return redirect('cart')
+
+#================================================
+# FUNCION PARA REMOVER EL PRODCUTO DEL CARRITO
+# O DISMINUIR CON EL BOTON - (MENOS
+#================================================
+
+def remove_cart(request, product_id):
+    cart = Cart.objects.get(cart_id=_cart_id((request)))
+    product = get_object_or_404(Product, id=product_id)
+    #buscar el carrito de compras por el prodcuto y en funcion del carrito
+    cart_item = CartItem.objects.get(product=product, cart=cart)
+
+    #Sera utilizada en el boton de restar cantidad de prodcutos de un elemento
+    if cart_item.quantity > 1:
+        cart_item.quantity -= 1
+        cart_item.save()
+    else:
+        # si es menor a 1 es 0, por lo tanto que se elimine
+        cart_item.delete()
+    return redirect('cart', )
+
+#================================================
+# FUNCION PARA DAR ACCION AL BOTON ELIMINAR DEL CARRITO
+#================================================
+def remove_cart_item(request, product_id):
+    cart = Cart.objects.get(cart_id=_cart_id(request))
+    product = get_object_or_404(Product, id=product_id)
+    cart_item = CartItem.objects.get(product=product, cart=cart)
+    cart_item.delete()
+    return redirect('cart')
+
+#================================================
+# FUNCION PARA CALCULAR EL PRECIO TOTAL, FINAL Y EL IVA POR PRODCUTO
+#================================================
 def cart(request, total=0, quantity=0, cart_items=None):
     try:
         cart = Cart.objects.get(cart_id=_cart_id(request))
         cart_items = CartItem.objects.filter(cart=cart, is_active=True)
 
-        # queremos dsaber el precio total de mis productos y cantidad total qeu tiene el carrito
+        # queremos dsaber el precio total de mis productos y cantidad total qeu tiene el carrito y su IVA
         for cart_item in cart_items:
             total += (cart_item.product.price * cart_item.quantity)
             quantity += cart_item.quantity
+        iva = (2*total)/19
+        grand_total = total + iva
     except ObjectDoesNotExist:
         pass #solo ignora la eception
 
@@ -63,6 +99,8 @@ def cart(request, total=0, quantity=0, cart_items=None):
         'total': total,
         'quantity':quantity,
         'cart_items': cart_items,
+        'iva' : iva,
+        'grand_total': grand_total
 
     }
 
